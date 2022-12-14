@@ -1,0 +1,35 @@
+body {
+    overflow: hidden;
+}
+
+.canvas {
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.cnvContent {
+    margin: 1% auto 0;
+    width: 98%;
+    text-align: center;
+    background-image: linear-gradient(to bottom right,rgb(255, 153, 200 ,0.8),rgb(252, 246, 189 ,0.8),rgb(208, 244, 222 ,0.8),rgb(169, 222, 249 ,0.8),rgb(228, 193, 249 ,0.8));
+    background-blend-mode: darken;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #000;
+    border-radius: 1rem;
+}
+
+.contentDiv {
+    margin:auto;
+    padding: 1rem;
+    width: fit-content;
+}
+
+#btnColor {
+    display: none;
+}
+
+#txtLine {
+    width: 4rem;
+}
