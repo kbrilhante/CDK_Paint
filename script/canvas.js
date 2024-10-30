@@ -82,6 +82,6 @@ function getViewport() {
         vp.height = document.querySelector('body').clientHeight;
     }
 
-    console.log(vp);
+    // console.log(vp);
     return vp;
 }

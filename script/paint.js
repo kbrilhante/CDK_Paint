@@ -5,15 +5,14 @@ const btncor = document.getElementById("btnColor");
 const txtLinha = document.getElementById("txtLine");
 
 let selecaoCor;
-let hue = 0;
+let hue;
 let cor;
-let linha = 4;
+let linha;
 
 let pX, pY, upX, upY;
 let eventoMouse;
 
 inicializar();
-
 
 function inicializar() {
     canvas.addEventListener("mousedown", novoEventoMouse);
@@ -25,6 +24,8 @@ function inicializar() {
     seletorCor.addEventListener("change", mudaCor);
 
     selecaoCor = seletorCor.value;
+    hue = 0;
+    linha = 4;
     txtLinha.value = linha;
 }
 
